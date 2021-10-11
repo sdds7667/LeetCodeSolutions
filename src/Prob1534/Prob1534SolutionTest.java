@@ -1,15 +1,15 @@
 package Prob1534;
 
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Prob1534SolutionTest {
+
     @ParameterizedTest
     @MethodSource("leetCodeSource")
     public void leetCode(int[] arr, int a, int b, int c, int expected) {
