@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Prob1534SolutionTest {
+class SolutionTest {
 
     @ParameterizedTest
     @MethodSource("leetCodeSource")
